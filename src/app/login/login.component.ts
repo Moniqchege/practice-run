@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { SignupComponent } from "./signup/signup.component";
 
 @Component({
   selector: 'app-login',
-  imports: [],
+  imports: [SignupComponent],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
+  title = 'login works';
 
 }
