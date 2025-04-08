@@ -11,6 +11,15 @@ import { LoginComponent } from "./login/login.component";
 export class AppComponent {
   title = 'code step by step with;';
   name = 'Monicah Chege';
-  data = 100;
-  data2 = 100;
+  sayHello() {
+    alert('Hello, from Angular');
+  }
+  username:string = 'Monicah Chege';
+  age: number | string = 25;
+  email='abc@gmail.com';
+  contact=1234567890;
+
+  apple() {
+    this.age='abc'
+  }
 }
