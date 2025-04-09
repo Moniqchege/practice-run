@@ -13,7 +13,11 @@ export class AppComponent {
   title = 'code step by step with;';
   name = 'Monicah Chege';
   imageUrl = 'https://angular.io/assets/images/logos/angular/angular.png';
-  isDisabled = true;
+  
+  isLoggedIn = false;
+  getMessage(){
+    alert('Welcome back')
+  }
   
   
 }
