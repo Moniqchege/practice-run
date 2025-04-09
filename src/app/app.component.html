@@ -1,15 +1,5 @@
 <h1>Hello, World! Angular 19 in the House</h1>
 <h2>{{title}}</h2>
 <h3>{{name}}</h3>
-<app-login></app-login>
-<button (click)="sayHello()">Click Me</button>
-<p>{{username}}</p>
-{{age}}
-<button (click)="getData('button click event')">click here</button>
-<br/>
-<input type="text" #box1 placeholder="input box" (input)="getData(box1.value) "/>
-
-<input type="text" #box placeholder="Enter Name" (keyup)="getValue(box.value)" />
-
-<p>My Name is: {{displayVal}}</p>
-<counter></counter>
+<img [src]="imageUrl" />
+<button [disabled]="isDisabled">Click Me</button>
