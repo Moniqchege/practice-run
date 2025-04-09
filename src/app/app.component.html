@@ -5,3 +5,6 @@
 <button (click)="sayHello()">Click Me</button>
 <p>{{username}}</p>
 {{age}}
+<button (click)="getData('button click event')">click here</button>
+<br/>
+<input type="text" #box1 placeholder="input box" (input)="getData(box1.value)"/>

@@ -22,4 +22,7 @@ export class AppComponent {
   apple() {
     this.age='abc'
   }
+  getData(val:string){
+    console.warn(val);
+  }
 }
